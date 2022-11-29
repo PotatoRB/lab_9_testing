@@ -1,5 +1,5 @@
 async function waitElemLocated(element){
-    await element.waitForExist({timeout:10000});
+    await element.waitForExist({ timeout: 5000 });
     return element;
 }
 
