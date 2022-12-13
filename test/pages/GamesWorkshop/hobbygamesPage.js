@@ -1,4 +1,3 @@
-
 const BasePage = require('../Page');
 const {waitElemLocated} = require('../../helper/waiters');
 
