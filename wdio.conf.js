@@ -133,10 +133,10 @@ exports.config = {
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
     reporters: ['spec',
-        'dot',
-        ['junit', {
-            outputDir: './'
-        }]
+        // 'dot',
+        // ['junit', {
+        //     outputDir: './'
+        // }]
     ],
 
     //
